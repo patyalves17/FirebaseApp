@@ -1,4 +1,4 @@
-package com.example.logonrm.firebaseapp
+package com.fiap.patyalves.firebaseapp
 
 import org.junit.Test
 

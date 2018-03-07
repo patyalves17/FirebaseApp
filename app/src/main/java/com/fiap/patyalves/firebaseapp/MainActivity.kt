@@ -1,4 +1,4 @@
-package com.example.logonrm.firebaseapp
+package com.fiap.patyalves.firebaseapp
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
