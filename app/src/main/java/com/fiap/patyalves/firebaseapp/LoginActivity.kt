@@ -38,7 +38,7 @@ class LoginActivity : AppCompatActivity() {
                                     Toast.LENGTH_SHORT).show()
                            // updateUI(user)
                         } else {
-                            Toast.makeText(this, "Authentication failed.",
+                            Toast.makeText(this, "Authentication failed."+task.exception?.message,
                                     Toast.LENGTH_SHORT).show()
                             //updateUI(null)
                         }
@@ -55,7 +55,7 @@ class LoginActivity : AppCompatActivity() {
                             Toast.makeText(this, "Sucesso!!!!.",
                                     Toast.LENGTH_SHORT).show()
                         } else {
-                            Toast.makeText(this, "Authentication failed.",
+                            Toast.makeText(this, "Authentication failed."+task.exception?.message,
                                     Toast.LENGTH_SHORT).show()
                            // updateUI(null)
                         }
@@ -72,7 +72,8 @@ class LoginActivity : AppCompatActivity() {
                                 Toast.LENGTH_SHORT).show()
 
                 }else{
-
+                        Toast.makeText(this, "failed."+task.exception?.message,
+                                Toast.LENGTH_SHORT).show()
                 }
             })
         }
